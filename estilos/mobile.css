@@ -20,20 +20,20 @@ menu > ul > li{
     text-align: center;
     padding: 15px;
     position: relative;
-    bottom: 25px;
     border-radius: 10px;
+    bottom: 70px;
 }
 menu{
     height: 150px;
 }
-menu ul > li:hover{
+menu > ul > li:hover{
    background-color: blueviolet;
    transition-duration: 1s;
    background-image: url(../image/aboboras.jpeg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center bottom;
-   color: white;
+   color: transparent;
 }
 body,html{
     overflow-x: hidden !important;
@@ -91,7 +91,7 @@ div.entidade:hover{
 .morcego{
     width: 70px;
     position: relative;
-    left: 85%;
+    left: 70%;
     top: 34%;
 }
 #texto h2{
@@ -154,6 +154,7 @@ div.entidade:hover{
     font-size: 1.8em;
     transition-duration: 0.5s;
     transition-timing-function: ease;
+ 
     
 }
 #persos p:hover{
