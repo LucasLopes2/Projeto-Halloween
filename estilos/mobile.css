@@ -1,0 +1,187 @@
+@charset "utf-8";
+/*PALETA DE CORES
+Cor Roxa: #C1C1C1
+Cor Laranja: #EA6901
+Cor Preta: #010101
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@500&family=Nosifer&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+menu > ul > li{
+    width: 20%;
+    font-size: 1.1rem;
+    background-color: aliceblue;
+    margin: auto;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 25px;
+    border-radius: 10px;
+}
+menu{
+    height: 150px;
+}
+menu ul > li:hover{
+   background-color: blueviolet;
+   transition-duration: 1s;
+   background-image: url(../image/aboboras.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center bottom;
+   color: white;
+}
+body,html{
+    overflow-x: hidden !important;
+    height: 100vh;
+    width: 100vw;
+    background-color: #EA6901;
+}
+h1,h2{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Nosifer', sans-serif;
+    color: black;
+}
+h1{
+    background-color: rgba(255, 228, 196, 0.521);
+    text-shadow: 2px 0px 10px rgba(0, 0, 0, 0.712);
+    position: relative;
+    bottom: 15%;
+    font-size: 2em;
+}
+main{
+    text-align: center;
+    position: relative;
+}
+section#image1 img{
+    width: 80%;
+    text-align: center;
+    
+}
+img{
+    width: 90%;
+}
+section#image1{
+    background-color: darkviolet;
+    padding-right: 17px ;
+}
+div.entidade{
+    background-color: black;
+    padding-right: 17px ;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-position: center top;
+    
+}
+div.entidade:hover{
+    background-image: url(../image/entidadees.jpg);
+    transform: scale(1.2);
+    
+}
+
+.morcegos{
+    width: 70px;
+}
+.morcego{
+    width: 70px;
+    position: relative;
+    left: 85%;
+    top: 34%;
+}
+#texto h2{
+    padding: 20px;
+    font-size: 1.5em;
+}
+#texto h3{
+    font-size: 1.2em;
+    padding-bottom: 20px ;
+    font-family: fantasy;
+    font-weight:lighter ;
+    
+}
+#texto p{
+    padding: 15px;
+    color: white;
+}
+#cont h2{
+    padding: 20px;
+    font-size: 1.3em;
+
+}
+#cont > ul > li{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.3em;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    width: 70%;
+    margin: auto;
+    
+}
+#cont > ul > li:hover{
+    background-color: blueviolet;
+    text-decoration: underline;
+    width: 50%;
+    margin: auto;
+    color: yellow;
+}
+#cont{
+    background-color: white;
+    font-weight: bolder;
+    
+}
+#persos{
+    
+    padding: 10px;
+
+}
+#persos h2{
+    padding-bottom: 10px;
+    font-size: 1.15em;
+}
+#persos p{
+    width: 80%;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+    padding-top: 50%;
+    color: white;
+    font-size: 1.8em;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    
+}
+#persos p:hover{
+    background-image: url(../image/jason.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+
+}
+#persos > .it:hover{
+    background-image: url(../image/th.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+#persos > .fredd:hover{
+    background-image: url(../image/fredd.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+#persos > .samara:hover{
+    background-image: url(../image/SAMARA.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
